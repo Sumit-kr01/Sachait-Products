@@ -478,12 +478,13 @@ h1, h2, h3, h4, h5, h6 {
 html
 {
   height: 100%;
-  
+  overflow-x: hidden;
 }
 
 body
 {
   height: 100%;
+  overflow-x: hidden;
 }
 #intro {
   width: 100%;
@@ -1748,51 +1749,6 @@ body
     padding: 10PX 32PX;
 }
 
-
-.icon-block {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: 26px 0px;
-}
-
-@media (max-width:580px)
-{
-  .icon-block {
-    width: 100%;
-    margin: 26px 0px;
-    display: block;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
-.icon-img-desc {
-  width: 85%;
-  text-align: left;
-}
-
-@media (max-width:580px)
-{
-  .icon-img-desc {
-    width: 85%;
-    text-align: center;
-    margin: 0 auto;
-  }
-}
-
-.icon-img {
-  margin-right: 30px;
-}
-
-@media (max-width:580px)
-{
-  .icon-img {
-    margin: 0 auto;
-    display: block;
-  }
-}
 
 .black-icon-img {
   width: 36px;
